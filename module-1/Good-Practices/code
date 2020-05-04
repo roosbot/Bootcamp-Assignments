@@ -1,0 +1,43 @@
+
+Variable naming
+Give variables understandable/readable names
+ Capitalize all letters of acronyms (HTTPS not Https)
+ Never use single character names with l, o, I they look too similar
+ Use CapWords/StudlyCaps so CapitalizedWords for class names
+ Variable names should be lowercase seperated by underscores
+ Only use mixedCase where that is already being used to retain compatibility
+ Add suffixes _contra to the variables that declare contravariant behavior
+ 
+ Function names should be lowercase separated by underscores 
+
+Libraries
+ Always put imports at the top of the file. Multiple on seperate lines:
+	import os
+	import sys
+ 
+Community conventions
+To quote strings use "double qoutes"
+
+
+Make use of indents
+Use tabs or spaces? 
+Spaces are preferred. 1 tab = 4 spaces
+
+Comments:
+When writing comments use a space after the hash and one enter (e.g. # Comment)
+Comments should be complete sentences (Capitalization)
+Inline comments should be separated by at least two spaces and start with # 
+Break lines before a binary operator:
+correct:
+	income = (gross_wages
++ taxable_interest
++ (dividends - qualified_dividends)
+- ira_deduction
+- student_loan_interest)
+
+incorrect:
+	income = (gross_wages +
+taxable_interest +
+(dividends - qualified_dividends) -
+ira_deduction -
+student_loan_interest)
