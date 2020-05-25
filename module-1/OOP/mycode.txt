@@ -1,0 +1,27 @@
+# Remove All The Marked Elements of a List
+
+class List:
+    def remove_(self, integer_list, values_list):
+        #your code here
+        self.integer_list = integer_list
+        self.values_list = values_list
+        return [x for x in integer_list if x not in values_list]
+
+# Method For Counting Total Occurence Of Specific Digits
+
+class List(object):
+    def count_spec_digits(self, integers_list, digits_list):
+        # your code here
+        self.integers_list = integers_list
+        self.digits_list = digits_list
+        return [(x, integers_list.count(x)) for x in digits_list]
+
+# Ordered Count of Characters
+
+def ordered_count(inp):
+    lst = []
+    for letter in inp:
+        if letter not in lst:
+            lst.append(letter)
+    return [(letter, inp.count(letter)) for letter in lst]
+    
