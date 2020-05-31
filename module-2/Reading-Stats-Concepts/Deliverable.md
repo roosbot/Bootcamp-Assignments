@@ -11,7 +11,7 @@ As a good reference (once you have looked for some information) you have   [this
 
 *However, the difference between the value that you expect does not need to be the same as the outcome value. It can be that the outcome of the experiment is not equal to the guessed number. This is because the mean has nothing to do with the probability of getting to that mean. The mean is dependent on frequency, so the more you guess, the more likely that you guess correctly if you guess the mean.
 
-*The expected value takes into account the probability and gives you an estimate as to how likely you are to guess correctly.
+*The expected value does take the probability into account and gives you an estimate as to how likely you are to guess correctly.
 
 Good reference: https://www.quora.com/Under-what-situations-is-the-expected-value-equal-to-mean
 
@@ -21,11 +21,11 @@ We have told you that a lot of scientifical investigations are based on p-values
 
 Don't hesitate to use more articles if you want to :)
 
-*The problem in science with p-values is that the threshold of the p-values are used to make yes-or-no decisions. Nowadays decisions rely on the threshold of statistical significance. When a p-value is 'accepted' (P<0.05) so is the hypothesis. And when the p-value is too high, it is dismissed and so is the hypothesis. However, this does not mean there is or isn't a proven effect. The lower the P-value and therefore the higher the confidence interval, the more more confidence we have in the fact that the hypothesis is true. The lower the confidence interval, the 'easier' it is to accept hypothesis. However, this does not mean that if P > 0.05 it isn't tue. We just have less confidence too accept it. In other words, the P value is not set in stone and can differ even when experiments are perfectly replicated. Thus, it is not reliable for yes-or-no decision-making.
+*The problem in science with p-values is that the threshold of the p-values are used to make yes-or-no decisions. Nowadays decisions rely on the threshold of statistical significance. When a p-value is 'accepted' (P<0.05) so is the hypothesis. And when the p-value is too high, it is dismissed and so is the hypothesis. However, this does not mean there is or isn't a proven effect. The lower the P-value and therefore the higher the confidence interval, the more confidence we have in the fact that the hypothesis is true. The lower the confidence interval, the 'easier' it is to accept hypothesis. However, this does not mean that if P > 0.05 the hypothesis needs to be rejected. We just have less confidence too accept it. In other words, the P value is not set in stone and can differ even when experiments are perfectly replicated. Thus, it is not reliable for yes-or-no decision-making.
 
 *Instead of making decisions based on the p-value, it is important to emphasize the observed effect or point estimate and its intervals. The closer to the point estimate, the higher the confidence. The values that fall outside of the intervals limit are not incompatible, they are just less compatible. This will avoid blunt conclusions and encourage details in statistical articles to explain the results and it's evidence next to the statistical numbers.
 
-* To conclude: Do not use p value to decide whether a result refutes or supports a scientific hypothesis. Discuss the reasons of your results, both statistical but also background evidence, data quality and understanding of underlying mechanisms
+*To conclude: Do not use p value to decide whether a result refutes or supports a scientific hypothesis. Discuss the reasons of your results, both statistical but also background evidence, data quality and understanding of underlying mechanisms.
 
 ## Challenge 3: Applying testing to a specific case: A/B testing.
 A/B testing is a widely used tool to understand differences between two samples. It is a way to measure the impact of something we did: 
@@ -60,3 +60,19 @@ Read more about A/B testing with a couple of examples:
 [A cool general explanation](http://arts.show/tested7)
 
 So, take one single example in the articles you just read, which specific test/s would you apply? (We want you just to do a draft and think a little bit how to apply the tests you already know in this case)
+
+*I'm interested in exploring the use case of Sephora SEA. Here, the A/B test is run for a landing page rearrangement for its Gold members. The metrics that matter are average time spend on the page and the conversion rate. In this article, they already use many statistical tests, but as we have not learned about them (yet), I'll only discuss tests that we have learned in the lesson of descriptive statistics.
+
+*Measures of Frequency
+We could compare the count, percent and frequency of the sessions. So in the case of Sephora, 6000 vs 4000 sessions, 60% vs 40% and maybe the number of sessions per user.
+
+*Measures of Centrality
+We could compare the mean, median and the mode of the sessions. We could compare their distribution to see where the mean, mode and median differ from each other.
+
+*Measures of Variability
+By calculating the variance and the standard deviation, we can discover the differences between the values. It is a good idea to look at the range of both datasets, such as the minimum value, the maximum value.
+
+*Measures of Dispersion 
+To see how spread out the data is, we could calculate the quartiles and see how it is distributed. 
+
+All of the above we would see by running a frequency distribution, histogram and boxplot.
