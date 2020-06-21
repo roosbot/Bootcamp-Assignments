@@ -9,7 +9,9 @@ The goal of this projectis to apply all data analytics concepts that I have lear
 ## Project Description
 This project is about the Customer Lifetime Value (CLV) of the customers of the webshop Yermana.
 
-CLV is the expected profit that is generated from a customer in a lifetime. It used to measure the performance of returning customers. That information can be used to segment customers into profitable and less profitable customers. Based on this segmentation, the allocation of marketing resources or investment in customer retention can be altered. This will help a business to grow profitably in the long-term.
+CLV is used to measure the performance of returning customers. CLV is the expected profit that is generated from a customer over the course of a business relationship. The longer a customer purchases from a company, the greater the customer lifetime value becomes. 
+
+Why? That information can be used to segment customers into profitable and less profitable customers. Based on this segmentation, the allocation of marketing resources or investment in customer retention can be altered. This will help a business to grow profitably in the long-term.
 
 CLV = Lifetime * Purchase Frequency * AOV * Profit Margin
 
@@ -21,6 +23,8 @@ Purchase Frequency = Total Number of Orders / Total Number of Unique Customers
 - Average Order Value (AOV) is the average of each basket and is calculated as follows: AOV = Unit / Order * Price / Unit
 
 - Profit Margin is the ratio of revenues minus costs to revenue. It is important to take into account the attribution and allocation of costs and revenues. For example, Google Analytics attributes based on a last-click basis.
+
+* Churn is a measure loyalty of a customer
 
 * Recency, Frequency and Monetary (RFM) segmentation has been used as a means to estimate CLV. This might be interesting to look into.
 
