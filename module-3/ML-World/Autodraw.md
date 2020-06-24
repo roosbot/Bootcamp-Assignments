@@ -23,10 +23,22 @@ So let's start digging a litle bit. Imagine you open your today's AI&ML journal 
 
 * How did they do to build the model. Which type of model is?
 
+* How does it work?
+https://www.quora.com/How-does-Google-AutoDraw-work
+
+* Why is is useful?
+-- It saves time
+-- Encourages creativity (or decreases??)
+
 * How could they have improved on it?
 * Do you know any other project that applies the same techniques? Could you use something for another use case? Are there other possible uses for this technology?
 * Do you find any ethical implications? Collateral effects? How do you feel about this applications? Is it good or a bad? 
 * Do you know any news related? What have others said about it?
+-- Also available in Sketch now: https://sketchapphub.com/resource/autodraw-for-sketch-plugin/
+
+-- https://www.infobeehive.com/google-autodraw/#:~:text=Benefits%20of%20Google%20AutoDraw,most%20of%20the%20common%20browsers.&text=Easy%20to%20use%3A%20It's%20very,drawing%20within%20a%20few%20minutes.
+-- https://www.thedailystar.net/toggle/news/ai-experiments-you-can-tinker-1855003
+-- Video: https://www.youtube.com/watch?v=VwRbvVrUXTc&list=PLNKiDLwBZnKRUPLIOtDtw8YadY8W7zIIR&index=406
 
 So you need to look for more information. Maybe the paper the scientists published, other articles, some information about the techniques, ...
 
